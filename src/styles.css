@@ -1,0 +1,49 @@
+*,
+* ::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Cedarville Cursive", cursive, sans-serif;
+  margin: 0;
+  margin: 0 auto;
+  max-width: 720px;
+  box-sizing: border-box;
+  align-content: center;
+  justify-content: center;
+}
+
+header {
+  background: #009688;
+  padding: 12px;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header .btn {
+  outline: none;
+  padding: 10px 25px;
+  background: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 50px;
+  font-family: "Cedarville";
+  cursor: pointer;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
